@@ -52,7 +52,7 @@ variable "hamgmtcidraz1id" {
 }
 
 variable "publiccidraz2id" {
-  description = "Public Subnet 1- AZ2 ID"
+  description = "Public Subnet - AZ2 ID"
   default     = "XXXXXXXX"
 }
 
@@ -72,7 +72,7 @@ variable "hamgmtidraz2id" {
 }
 
 variable "hamgmtcidraz2" {
-  default = "XXXXXXXX"
+  default = "20.1.13.0/24"
 }
 
 // License Type to create FortiGate-VM
