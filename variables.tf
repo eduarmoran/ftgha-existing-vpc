@@ -24,36 +24,36 @@ variable "iam" {
 
 variable "vpcid" {
   description = "VPC ID"
-  default     = "XXXXXXXX"
+  default     = "XXXXXXXX"        //Put in the VPC ID created
 }
 
 variable "vpccidr" {
-  default = "XXXXXXXX"
+  default = "XXXXXXXX"        //Put in the VPC CIDR created
 }
 
 variable "publiccidraz1id" {
   description = "Public Subnet - AZ1 ID"
-  default     = "XXXXXXXX"
+  default     = "XXXXXXXX"              //Put in the Subnet ID to "Public Subnet - AZ1 ID" created => You will find this information in the AWS VPC Console
 }
 
 variable "privatecidraz1id" {
   description = "Private Subnet - AZ1 ID"
-  default     = "XXXXXXXX"
+  default     = "XXXXXXXX"        
 }
 
 variable "hasynccidraz1id" {
   description = "HASYNC Subnet - AZ1 ID"
-  default     = "XXXXXXXX"
+  default     = "XXXXXXXX"         
 }
 
 variable "hamgmtcidraz1id" {
   description = "HAMGMT Subnet - AZ1 ID"
-  default     = "XXXXXXXX"
+  default     = "XXXXXXXX"         
 }
 
 variable "publiccidraz2id" {
   description = "Public Subnet - AZ2 ID"
-  default     = "XXXXXXXX"
+  default     = "XXXXXXXX"         //Put in the Subnet ID to "Public Subnet - AZ2 ID" created => You will find this information in the AWS VPC Console
 }
 
 variable "privatecidraz2id" {
@@ -324,7 +324,7 @@ variable "fgtami" {
 
 //  Existing SSH Key on the AWS 
 variable "keyname" {
-  default = "XXXXXXXX"
+  default = "std-keypair"
 }
 
 // HTTPS access port
