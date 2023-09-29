@@ -111,7 +111,7 @@ variable "fgtami" {
     },
     us-east-2 = {
       arm = {
-        payg = "ami-0e9573e8922715847"
+        payg = "ami-035ac2dd6870b1690"
         byol = "ami-08767eb1b1c672f4b"
       },
       x86 = {
